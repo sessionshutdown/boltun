@@ -1,0 +1,9 @@
+# Runtime: the spotter itself runs on the Python standard library only
+# (ctypes, argparse, dataclasses, time, math, random) - no pip packages
+# required to run it.
+#
+# Voice generation (dev tooling, generate_voice.py):
+piper-tts>=1.6.0
+# The radio-effect step in generate_voice.py needs the ffmpeg binary
+# (not pip-installable): it is auto-detected in PATH / common locations,
+# or passed explicitly via --ffmpeg.
