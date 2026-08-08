@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+audio/
+.audio
+.models
+models/
+phrases.py
